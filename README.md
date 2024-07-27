@@ -1,40 +1,71 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+TEKNOEMLAK
 
-## Getting Started
+TeknoEmlak, gayrimenkul sektöründe dijital dönüşümü hızlandırmayı amaçlayan yenilikçi bir platformdur. Bu proje, kullanıcıların mülk arama, inceleme ve randevu alma süreçlerini kolaylaştırmak için QR kod teknolojisi, çevrimiçi randevu sistemi ve sanal gezintiler gibi modern çözümler sunar.
 
-First, run the development server:
+Özellikler
+QR Kod Entegrasyonu: Kullanıcılar, mülk ilanlarına hızlı ve kolay bir şekilde erişebilirler.
+Çevrimiçi Randevu Sistemi: Kullanıcılar, emlak profesyonelleri ile kolayca randevu alabilirler.
+Sanal Gezintiler: Kullanıcılar, mülkleri detaylı bir şekilde inceleyebilir ve sanal olarak gezebilirler.
+Admin Paneli: Emlak ofisleri, ilanları yönetebilir, yeni ilanlar ekleyebilir ve QR kod oluşturabilirler.
+Sipariş Takip Sistemi: Kullanıcılar, siparişlerini ve durumlarını takip edebilirler.
+Kategoriler ve Footer Düzenleme: Emlak ofisleri, ilan kategorilerini ve footer bilgilerini düzenleyebilirler.
+Kullanılan Teknolojiler
+Front End:
+React: Kullanıcı arayüzlerinin oluşturulması.
+Next.js: Sunucu tarafı renderlama ve statik site üretimi.
+Redux: Uygulama state yönetimi.
+Next-Auth: Kimlik doğrulama ve oturum yönetimi.
+Back End:
+Node.js: Sunucu tarafı işlemler.
+MongoDB: Veritabanı yönetimi.
+Kurulum ve Kullanım
+Gereksinimler:
+Node.js
+MongoDB
 
-```bash
+Adımlar:
+
+git clone https://github.com/kullanıcı_adı/teknoemlak.git
+cd teknoemlak
+Gerekli Paketleri Yükleyin:
+
+npm install
+Geliştirme Sunucusunu Başlatın:
+
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Veritabanı Bağlantısını Yapılandırın:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+.env.local dosyasını oluşturun ve MongoDB bağlantı bilgilerinizi girin:
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+MONGODB_URI=mongodb+srv://<username>:<password>@cluster0.mongodb.net/teknoemlak?retryWrites=true&w=majority
+Admin Paneline Erişim:
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+Tarayıcınızda http://localhost:3000/admin adresine gidin.
+QR Kodları Oluşturma ve Yönetme:
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+İlan ekleme sayfasına giderek gerekli bilgileri girin ve QR kod oluşturun.
+Proje Yapısı
+pages/: Next.js sayfa bileşenleri.
+components/: Yeniden kullanılabilir React bileşenleri.
+lib/: Yardımcı fonksiyonlar ve yapılandırmalar.
+models/: MongoDB modelleri.
+styles/: Proje stil dosyaları.
+public/: Statik dosyalar ve görseller.
+Katkıda Bulunma
+Katkılarınızı memnuniyetle karşılıyoruz! Herhangi bir hata bildirimi, iyileştirme önerisi veya yeni özellik ekleme talebi için lütfen bir "Issue" açın veya bir "Pull Request" gönderin.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Nasıl Katkıda Bulunabilirsiniz:
+Bu projeyi forklayın.
+Kendi branşınızı oluşturun (git checkout -b özellik/adiniz).
+Değişikliklerinizi commitleyin (git commit -am 'Yeni özellik ekle').
+Branşınıza push edin (git push origin özellik/adiniz).
+Bir "Pull Request" açın.
 
-## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+Lisans
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Bu proje MIT Lisansı ile lisanslanmıştır. Daha fazla bilgi için LICENSE dosyasına bakın.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+TeknoEmlak, gayrimenkul sektöründe dijitalleşmeyi ve kullanıcı deneyimini iyileştirmeyi amaçlayan yenilikçi bir projedir. Katkılarınız ve geri bildirimleriniz için teşekkür ederiz!
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Bu README dosyası, projeyi tanıtmak, kurulum talimatlarını vermek ve katkıda bulunmak isteyen kişilere rehberlik etmek için tasarlanmıştır. Umarım yardımcı olur!
