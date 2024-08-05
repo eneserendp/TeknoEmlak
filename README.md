@@ -68,4 +68,4 @@ Bu proje MIT Lisansı ile lisanslanmıştır. Daha fazla bilgi için LICENSE dos
 
 TeknoEmlak, gayrimenkul sektöründe dijitalleşmeyi ve kullanıcı deneyimini iyileştirmeyi amaçlayan yenilikçi bir projedir. Katkılarınız ve geri bildirimleriniz için teşekkür ederiz!
 
-Bu README dosyası, projeyi tanıtmak, kurulum talimatlarını vermek ve katkıda bulunmak isteyen kişilere rehberlik etmek için tasarlanmıştır. Umarım yardımcı olur!
+
